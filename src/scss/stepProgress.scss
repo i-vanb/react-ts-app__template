@@ -12,7 +12,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    height: 10px;
+    height: 5px;
     background-color: #D7D7D7;
     z-index: -1;
 
@@ -20,7 +20,7 @@
       position: relative;
       height: 100%;
       background-color: #87b9f3;
-      transition: width .5s;
+      transition: width .5s ease;
     }
   }
   &__header{
@@ -37,6 +37,7 @@
       border: 1px solid #d7d7d7;
       cursor: pointer;
       background-color: #fff;
+      transition: background-color .5s ease;
       &.active{
         background-color: #87b9f3;
         border-color: #87b9f3;
