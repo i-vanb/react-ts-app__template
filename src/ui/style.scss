@@ -1,0 +1,17 @@
+.custom-ui__button{
+  padding: 5px 20px;
+  border: none;
+  background: #87b9f3;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+
+  &:hover{
+    background-color: #6aaff3;
+  }
+
+  &:disabled{
+    background-color: #D7D7D7;
+  }
+}
